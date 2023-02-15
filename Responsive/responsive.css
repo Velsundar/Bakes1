@@ -1,0 +1,255 @@
+/* Smartphones (portrait and landscape)*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 550px) {
+    .toppage{
+        display: none;
+        /* height: 50px;
+        width: 100%;
+        background-color: antiquewhite;
+        display: flex; */
+    }
+    .mailsec{
+        display: none;
+        /* display: grid;
+        display: flex;
+        height: 50px;
+        width: 200px; */
+    }
+    .mailinner{
+        display: none;
+        /* display: grid;
+        flex-wrap: wrap;
+        height: 60px;
+        width: 0px;
+        background-color: red;
+        font-family: Stylish;
+        font-size: 5px;
+        margin-left: 5px;
+        margin-top: 5px; */
+    }
+    .title1{
+        color: white;
+        font-family:Stylish;
+        font-size: 50px;
+    }
+    .topimage{
+        height: 200px;
+        width: 100%;
+    }
+    .topimage img{
+        height: 200px;
+        width: 100%;
+    }
+    .imgtext1{
+        top: 20px;
+        left: 10px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .imgtext2{
+        left: 10px;
+        font-weight: 600;
+        font-size: 30px;
+        top: 60px;
+    }
+    .imgtext3{
+        left: 10px;
+        top: 100px;
+    }
+    .readmorebtn{
+        left: 10px;
+        top: 140px;
+        font-size: 10px;
+    }
+    .playbtn{
+        display: none;
+        /* left: 100px;
+        top: 230px;
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+        place-content: centre; */
+    }
+    .aboutus{
+        position: relative;
+        height: 200px;
+        width: 100%;
+    }
+    .aboutushead{
+        position: absolute;
+        top: 6px;
+        left: 150px;
+        font-size: 20px;
+    }
+    .aboutushead1{
+        position: absolute;
+        font-size: 15px;
+        top: 30px;
+        left: 100px;
+        color: white;
+    }
+    .aboutusunderline{
+        background-color: orange;
+        height: 3px;
+        width: 180px;
+        left: 100px;
+        top: 50px;
+    }
+    .aboutuspara{
+        height: 150px;
+        width: 400px;
+        font-size: 13px;
+        left: 30px;
+        top: 60px;
+        color: white;    
+    }
+    .aboutus1{
+        height: 50px;
+        width: 100%;
+    }
+    .health{
+        height: 25px;
+        width: 25px;
+        background-color: orange;
+        top: 15px;
+        left: 25px;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    .healthtext{
+        height: 50px;
+        width: 60px;
+        left: 50px;
+        top: 25px;
+        text-align:center;
+        font-size: 8px;
+    }
+    .award{
+        height: 25px;
+        width: 25px;
+        background-color: orange;
+        top: 15px;
+        left: 110px;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    .awardtext{
+        height: 50px;
+        width: 60px;
+        left: 135px;
+        top: 25px;
+        text-align: center;
+        font-size: 8px;
+        font-weight: 700;
+        font-family:Itim ;
+    }
+    .client{
+        height: 25px;
+        width: 25px;
+        background-color: orange;
+        top: 15px;
+        left: 196px;
+        font-size: 17px;
+        color: white;
+        text-align: center;
+    }
+    .clienttext{
+        height: 50px;
+        width: 90px;
+        left: 220px;
+        top:25px;
+        text-align: center;
+        font-size: 8px;
+        font-weight: 700;
+        font-family:Itim ;
+    }
+    .proj{
+        display: none;
+        /* position: absolute;
+        height: 25px;
+        width: 25px;
+        background-color: orange;
+        top: 15px;
+        left: 310px;
+        font-size: 20px;
+        color: white;
+        text-align: center; */
+    }
+    .projtext{
+        display: none;
+        /* height: 50px;
+        width: 90px;
+        left: 335px;
+        top:25px;
+        text-align: center;
+        font-size: 8px;
+        font-weight: 700;
+        font-family:Itim ; */
+    }
+    .aboutus2{
+        height: 200px;
+        width: 100%;
+        border: 2px solid pink;
+        background-image: url("/assets/Cakes_List/waffle_splash1.png");
+        clip-path: polygon(0 0, 100% 29%, 100% 100%, 0% 100%);
+    }
+    .menu{
+        position: relative;
+        height: 150px;
+        width: 100%;
+    }
+    .menuhead{
+        color: orange;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: Dancing Script;
+        left: 120px;
+        top: 15px;
+    }
+    .menuunderline2 {
+        /* display: inline-block;
+        position: relative; */
+        color: orange;
+        font-size: 20px;
+        font-weight: 1000;
+        font-family: Dancing Script;
+        left: 90px;
+        top: 35px;
+    }
+    .cakeselect{
+        position: absolute;
+        display: flex;
+        height: 50px;
+        width: 300px;
+        background-image: url(/assets/Aboutus_bg.jpg);
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border: 2px solid rgb(115, 111, 118);
+        top: 50px;
+        left: 10px;
+        box-shadow: 2px 2px 15px 1px chocolate;
+    }
+    .cakeselect li{
+        display: inline-block;
+        padding: 25px;
+        font-size: 9px;
+        font-weight: 600;
+        font-family: Itim;
+        align-items: center;
+    }
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+       
+}
