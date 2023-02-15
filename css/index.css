@@ -170,7 +170,7 @@
     position: relative;
     height: 400px;
     width: 100%;
-    background-image: url(/assets/cake3.jpg);
+    background-image: url(./assets/cake3.jpg);
     /* background-color: rgb(242, 245, 238); */
     clip-path: polygon(0 0, 100% 0%, 100% 71%, 0% 100%);}
 .aboutushead{
@@ -213,7 +213,7 @@
     position: relative;
     height: 100px;
     width: 100%;
-    /* background-image:url(/assets/Aboutus_bg.jpg); */
+    /* background-image:url(./assets/Aboutus_bg.jpg); */
 }
 .health{
     position: absolute;
@@ -317,7 +317,7 @@
     position: relative;
     height: 400px;
     width: 100%;
-    background-image: url("/assets/Cakes_List/pngegg.png");
+    background-image: url("./assets/Cakes_List/pngegg.png");
     clip-path: polygon(0 0, 100% 29%, 100% 100%, 0% 100%);
 }
 .menu{
@@ -400,7 +400,7 @@
     display: flex;
     height: 100px;
     width: 400px;
-    background-image: url(/assets/Aboutus_bg.jpg);
+    background-image: url(./assets/Aboutus_bg.jpg);
     /* background-color: chocolate; */
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -699,7 +699,7 @@
     width: 50px;
 }
 .footer{
-    background-image: url(/assets/Aboutus_bg.jpg);
+    background-image: url(./assets/Aboutus_bg.jpg);
     height: 400px;
     width: 100%;
     position: relative;
